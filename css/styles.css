@@ -3,6 +3,7 @@ body{
   font-family: 'Noto Serif KR', serif;
   font-size:18px;
   margin:0;
+  word-break:keep-all;
 }
 a{
   color:black;
@@ -46,19 +47,9 @@ i:hover{
   color:#EACE47;
 }
 
-.cover-square{
-  background-color:#474747;
-  height:100vw;
-  opacity:0.7;
-  position:absolute;
-  width:100%;
-}
 @media(min-width:500px){
   .title-container{
     margin-top:200px;
-  }
-  .cover-square{
-    height:500px;
   }
   .title-head{
     height:500px;
@@ -85,6 +76,9 @@ i:hover{
   background-color:#F8F8F8;
   position:relative;
   text-align:center;
+}
+.categorized{
+  margin-top:80px;
 }
 .work{
   width:100%;
@@ -135,10 +129,13 @@ i:hover{
 /*about*/
 .content{
   line-height:1.8rem;
-  padding:40px;
+  padding:30px;
 }
 .content-title{
-  margin-top:80px;
+  left:0;
+  margin-top:150px;
+  right:0;
+  text-align:center;
 }
 .content-img{
   margin:0 0 10px 0;
