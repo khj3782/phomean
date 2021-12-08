@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Serif+KR:wght@300;400;700;900&display=swap" rel="stylesheet">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Serif+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../../css/styles.css" />
   <script src="https://kit.fontawesome.com/ca3835c383.js" crossorigin="anonymous"></script>
@@ -38,10 +39,10 @@
               <a class="nav-link" href="../episode.html">EPISODE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../portrait.html">PORTRAIT</a>
+              <a class="nav-link active" aria-current="page" href="../portrait.html">PORTRAIT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../landscape.html">LANDSCAPE</a>
+              <a class="nav-link" href="../landscape.html">LANDSCAPE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../about.html">ABOUT</a>
@@ -58,33 +59,28 @@
   <section id="contents">
     <div class="work-list">
       <div class="categorized">
-      <!--사진이 여러 장일 경우-->
-
-      <!--여러 장 시작-->
-      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="content-img" src="../../img/landscape2-1.jpg" alt="landscape2-1">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="content-img" src="../../img/landscape2-1.jpg" alt="landscape2-1">
+            </div>
+            <div class="carousel-item">
+              <img class="content-img" src="../../img/landscape2-2.jpg" alt="landscape2-2">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="content-img" src="../../img/landscape2-2.jpg" alt="landscape2-2">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!--끝-->
-
       </div>
       <div class="content">
         <strong>겨울왕국</strong><br /><br />
-        얼음떙
+        <br />'그리워하는 마음으로' 
       </div>
     </div>
   </section>
